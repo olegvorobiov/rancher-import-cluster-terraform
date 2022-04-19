@@ -334,10 +334,6 @@ resource "kubernetes_deployment" "cattle-cluster-agent" {
             }
           }
         }
-        host_aliases {
-          hostnames = ["rancher-lab.home"]
-          ip = "192.168.1.237"
-        }
       }
     }
     strategy {
